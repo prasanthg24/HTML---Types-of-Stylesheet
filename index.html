@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleSheet in HTML</title>
+    <style>
+        #para{
+            color: blue;
+        }
+        h1{
+            text-decoration: underline;
+        }
+        #internal
+        {
+            font-size: 25px;
+            color:crimson;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p id="head">Types of StyleSheet in HTML<p>
+     
+    <h1>Inline Style Sheet</h1>
+    <p style="color:tomato">Define style sheet rules directly along-with the HTML elements using style attribute.</p>
+    <p style="font-size: 30px; color: darkgoldenrod;">Im in Inline Style Sheet</p>
+
+
+    <h1>Internal Style Sheet</h1>
+    <p id="para">Define style sheet rules in header section of the HTML document using  style tag.</p>
+    <p id="internal">Im in Internal StyleSheet</p>
+    
+    <h1>External Style Sheet </h1>
+    <p id="para2">Define style sheet rules in a separate .css file and then include that file in your HTML document using HTML <link> tag.</p>
+    <p id="external">Im in External StyleSheet</p>
+
+</body>
+</html>
